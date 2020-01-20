@@ -7,10 +7,10 @@ DeviceOSType | Eq / Contains | Syntax
 iPhones | eq | iPhone
 iPads | eq | iPad
 All Android | contains | Android
-Android Enterprise | Eq | AndroidEnterprise
-Android For Work | Eq | AndroidForWork
-All Windows | contains | Windows
-All Mac Devices | contains | Mac
+Android Enterprise | eq | AndroidEnterprise
+Android For Work | eq | AndroidForWork
+All Windows | eq | Windows
+All MacOS | contains | Mac
 Mac DEP | eq | MacMDM
 
 
@@ -23,7 +23,7 @@ All Devices under Intune Management
 
 All Corporate Devices
 ```
-(device.deviceOwnership -eq "Company")`
+(device.deviceOwnership -eq "Company")
 ```
 
 iPads & iPhones
