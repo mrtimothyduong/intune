@@ -1,7 +1,7 @@
 # Intune Notes
 A list of Intune notes that I've collated as there's not enough resources online.
 
-# Dynamic Groups
+# Dynamic Device Groups
 Intune's KB on Dynamic Device Groups does not contain enough information on the possible Syntaxes or is not clearly stated enough.
 
 ## device.deviceOwnership Syntaxes
