@@ -2,16 +2,17 @@
 A list of Intune notes that I've collated as there's not enough resources online.
 
 # Dynamic Groups
-Intune's KB on Dynamic Device Groups does not contain enough information on the possible Syntaxes.
+Intune's KB on Dynamic Device Groups does not contain enough information on the possible Syntaxes or is not clearly stated enough.
 
 ## device.deviceOwnership Syntaxes
 deviceOwnership | Eq / Contains | Syntax
 --- | --- | ---
 Corporate Devices | eq | Company
 Personal Devices | eq | Personal
+Unknown | eq | Unknown
 
 ## device.deviceOSType Syntaxes
-DeviceOSType | Eq / Contains | Syntax
+deviceOSType | Eq / Contains | Syntax
 --- | --- | ---
 iPhones | eq | iPhone
 iPads | eq | iPad
