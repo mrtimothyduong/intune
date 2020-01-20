@@ -1,7 +1,16 @@
 # Intune Notes
-A list of Intune notes
+A list of Intune notes that I've collated as there's not enough resources online.
 
-## Dynamic deviceOSType Syntaxes
+# Dynamic Groups
+Intune's KB on Dynamic Device Groups does not contain enough information on the possible Syntaxes.
+
+## device.deviceOwnership Syntaxes
+deviceOwnership | Eq / Contains | Syntax
+--- | --- | ---
+Corporate Devices | eq | Company
+Personal Devices | eq | Personal
+
+## device.deviceOSType Syntaxes
 DeviceOSType | Eq / Contains | Syntax
 --- | --- | ---
 iPhones | eq | iPhone
