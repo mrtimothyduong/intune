@@ -2,11 +2,16 @@
 A list of Intune notes
 
 ## Dynamic deviceOSType Syntaxes
-DeviceOSType | Syntax | Eq to Contains
+DeviceOSType | Eq / Contains | Syntax
 --- | --- | ---
-All Mac Devices | Mac | Contains
-Mac DEP | MacMDM | Eq
-All Android | Android | Contains
+iPhones | eq | iPhone
+iPads | eq | iPad
+All Android | contains | Android
+Android Enterprise | Eq | AndroidEnterprise
+Android For Work | Eq | AndroidForWork
+All Windows | contains | Windows
+All Mac Devices | contains | Mac
+Mac DEP | eq | MacMDM
 
 
 ## Example Dynamic Device Groups
